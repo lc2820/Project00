@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/status_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的应用作品集"
+        android:padding="20dp"
+        android:layout_margin="3dp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:background="#02B3E4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="纳米学位应用"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:textSize="24dp" />
+    <Button
+        android:id="@+id/movies"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="热门电影"
+        android:layout_gravity="center"
+        android:background="#2E3D49"
+        android:textColor="#FFFF"
+        android:onClick="movies"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="股票雄鹰"
+        android:layout_gravity="center"
+        android:background="#2E3D49"
+        android:textColor="#FFFF"
+        android:onClick="share"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="XYZ阅读器"
+        android:layout_gravity="center"
+        android:background="#2E3D49"
+        android:textColor="#FFFF"
+        android:onClick="xyz"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="最新闻"
+        android:layout_gravity="center"
+        android:background="#2E3D49"
+        android:textColor="#FFFF"
+        android:onClick="news"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="毕业设计"
+        android:layout_gravity="center"
+        android:background="#2E3D49"
+        android:textColor="#FFFF"
+        android:onClick="design"/>
+
+</LinearLayout>
